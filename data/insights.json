@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-11-23T19:33:00+00:00",
+  "scope": {
+    "applications_in_assignment": 100,
+    "research_records": 100,
+    "completed_records": 100,
+    "failed_records": 0,
+    "note": "Counts represent automated detections and assessments from fetched documentation, not independently verified facts. Unknown means insufficient evidence was found."
+  },
+  "authentication": {
+    "detected_counts": {
+      "OAuth2": 38,
+      "Access token": 1,
+      "API key": 51,
+      "Bearer/token authentication": 21,
+      "Other": 13,
+      "Basic authentication": 13
+    },
+    "unknown_or_not_found": 38
+  },
+  "access_model": {
+    "detected_counts": {
+      "Free developer access": 3,
+      "Paid plan required": 2,
+      "Admin approval required": 1,
+      "Partnership/contact-sales required": 1,
+      "Self-serve": 1
+    },
+    "unknown_or_not_found": 95
+  },
+  "api_surface": {
+    "detected_counts": {
+      "GraphQL": 27,
+      "REST": 58,
+      "Other": 7
+    },
+    "unknown_or_not_found": 33
+  },
+  "buildability": {
+    "agent_assessed_counts": {
+      "Moderate": 64,
+      "Easy": 2,
+      "Difficult": 1
+    },
+    "unknown": 33,
+    "note": "Easy requires detected self-serve or free access; Difficult requires detected gating; Moderate means an API was detected but access is unknown or mixed. These are preliminary agent assessments, not confirmed integration tests."
+  },
+  "blockers": {
+    "detected_counts": {
+      "Paid access": 2,
+      "Approval requirements": 1,
+      "Partnership requirements": 1
+    },
+    "note": "Automated blocker detections require manual confirmation."
+  },
+  "categories": {
+    "CRM and Sales": {
+      "completed": 10,
+      "agent_detected_api": {
+        "GraphQL": 4,
+        "REST": 7
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 7,
+        "Easy": 1
+      }
+    },
+    "Support and Helpdesk": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 7,
+        "GraphQL": 3
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 7,
+        "Easy": 1
+      }
+    },
+    "Communications and Messaging": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 5,
+        "Other": 2,
+        "GraphQL": 2
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 6
+      }
+    },
+    "Marketing, Ads, Email and Social": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 4,
+        "Other": 1,
+        "GraphQL": 1
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 5
+      }
+    },
+    "Ecommerce": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 5,
+        "GraphQL": 3
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 5
+      }
+    },
+    "Data, SEO and Scraping": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 7
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 6,
+        "Difficult": 1
+      }
+    },
+    "Developer, Infra and Data Platforms": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 7,
+        "GraphQL": 5,
+        "Other": 3
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 8
+      }
+    },
+    "Productivity and Project Management": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 7,
+        "GraphQL": 6
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 9
+      }
+    },
+    "Finance and Fintech": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 4,
+        "GraphQL": 1,
+        "Other": 1
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 5
+      }
+    },
+    "AI, Research and Media-native": {
+      "completed": 10,
+      "agent_detected_api": {
+        "REST": 5,
+        "GraphQL": 2
+      },
+      "agent_assessed_buildability": {
+        "Moderate": 6
+      }
+    }
+  },
+  "easy_integration_opportunities": [
+    {
+      "app_id": 7,
+      "app_name": "Zoho CRM",
+      "category": "CRM and Sales",
+      "reason": "Verified API text also describes self-serve or free developer access.",
+      "evidence_url": "https://www.zoho.com/crm/developer/"
+    },
+    {
+      "app_id": 14,
+      "app_name": "Front",
+      "category": "Support and Helpdesk",
+      "reason": "Verified API text also describes self-serve or free developer access.",
+      "evidence_url": "https://dev.frontapp.com/docs/welcome"
+    }
+  ],
+  "composio_catalogue": {
+    "source": "data/composio_coverage.json",
+    "note": "Catalogue matching is separate from vendor API research. A match does not prove free API access or successful integration.",
+    "total_applications": 100,
+    "confirmed_matches": 71,
+    "possible_matches": 0,
+    "no_matches": 29,
+    "confirmed_coverage_percentage": 71.0
+  }
+}

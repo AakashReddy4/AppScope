@@ -1,0 +1,2213 @@
+[
+  {
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Salesforce",
+    "matched_toolkit_slug": "salesforce",
+    "toolkit_description": "Salesforce is a leading CRM platform integrating sales, service, marketing, and analytics to build customer relationships and drive business growth",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "contact-management",
+        "name": "contact management"
+      }
+    ],
+    "tools_count": 556.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 2,
+    "app_name": "HubSpot",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "HubSpot",
+    "matched_toolkit_slug": "hubspot",
+    "toolkit_description": "HubSpot is an inbound marketing, sales, and customer service platform integrating CRM, email automation, and analytics to facilitate lead nurturing and seamless customer experiences",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "marketing-automation",
+        "name": "marketing automation"
+      }
+    ],
+    "tools_count": 354.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 3,
+    "app_name": "Pipedrive",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Pipedrive",
+    "matched_toolkit_slug": "pipedrive",
+    "toolkit_description": "Pipedrive is a sales management tool built around pipeline visualization, lead tracking, activity reminders, and automation to keep deals progressing",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "sales-&-crm",
+        "name": "sales & crm"
+      }
+    ],
+    "tools_count": 404.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 4,
+    "app_name": "Attio",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Attio",
+    "matched_toolkit_slug": "attio",
+    "toolkit_description": "Attio is a fully customizable workspace for your team's relationships and workflows.",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      }
+    ],
+    "tools_count": 105.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 5,
+    "app_name": "Twenty",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Twenty",
+    "matched_toolkit_slug": "twenty",
+    "toolkit_description": "The #1 Open-Source CRM. Modern, powerful, affordable platform to manage your customer relationships.",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "contact-management",
+        "name": "contact management"
+      }
+    ],
+    "tools_count": 23.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 6,
+    "app_name": "Podio",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Podio",
+    "matched_toolkit_slug": "podio",
+    "toolkit_description": "Podio is a collaborative work platform for managing app-based workflows, items, tasks, files, comments, and related business data.",
+    "toolkit_categories": [
+      {
+        "id": "project-management",
+        "name": "project management"
+      },
+      {
+        "id": "team-collaboration",
+        "name": "team collaboration"
+      },
+      {
+        "id": "crm",
+        "name": "crm"
+      }
+    ],
+    "tools_count": 143.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 7,
+    "app_name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 8,
+    "app_name": "Close",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Close",
+    "matched_toolkit_slug": "close",
+    "toolkit_description": "Close is a CRM platform designed to help businesses manage and streamline their sales processes, including calling, email automation, and predictive dialers.",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "drip-emails",
+        "name": "drip emails"
+      }
+    ],
+    "tools_count": 75.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 9,
+    "app_name": "Copper",
+    "category": "CRM and Sales",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Copper",
+    "matched_toolkit_slug": "copper",
+    "toolkit_description": "Copper is a customer relationship management platform for managing contacts, companies, leads, opportunities, projects, tasks, activities, files, and webhooks.",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "sales-&-crm",
+        "name": "sales & crm"
+      },
+      {
+        "id": "project-management",
+        "name": "project management"
+      }
+    ],
+    "tools_count": 65.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 10,
+    "app_name": "DealCloud",
+    "category": "CRM and Sales",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 11,
+    "app_name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Zendesk",
+    "matched_toolkit_slug": "zendesk",
+    "toolkit_description": "Zendesk provides customer support software with ticketing, live chat, and knowledge base features, enabling efficient helpdesk operations and customer engagement",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "customer-support",
+        "name": "customer support"
+      }
+    ],
+    "tools_count": 483.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 12,
+    "app_name": "Intercom",
+    "category": "Support and Helpdesk",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Intercom",
+    "matched_toolkit_slug": "intercom",
+    "toolkit_description": "Intercom provides live chat, messaging, and customer engagement tools, enabling businesses to drive conversions, handle support, and personalize communication at scale",
+    "toolkit_categories": [
+      {
+        "id": "customer-support",
+        "name": "customer support"
+      },
+      {
+        "id": "crm",
+        "name": "crm"
+      }
+    ],
+    "tools_count": 138.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 13,
+    "app_name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Freshdesk",
+    "matched_toolkit_slug": "freshdesk",
+    "toolkit_description": "Freshdesk provides customer support software with ticketing, knowledge base, and automation features for efficient helpdesk operations and better customer experiences",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "customer-support",
+        "name": "customer support"
+      }
+    ],
+    "tools_count": 184.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 14,
+    "app_name": "Front",
+    "category": "Support and Helpdesk",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Front",
+    "matched_toolkit_slug": "front",
+    "toolkit_description": "Front is a shared inbox and collaboration platform that centralizes customer communications from multiple channels, enabling teams to manage emails, chats, and more",
+    "toolkit_categories": [
+      {
+        "id": "customer-support",
+        "name": "customer support"
+      },
+      {
+        "id": "team-collaboration",
+        "name": "team collaboration"
+      }
+    ],
+    "tools_count": 180.0,
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 15,
+    "app_name": "Pylon",
+    "category": "Support and Helpdesk",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 16,
+    "app_name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 17,
+    "app_name": "Plain",
+    "category": "Support and Helpdesk",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Plain",
+    "matched_toolkit_slug": "plain",
+    "toolkit_description": "Plain is a collaborative support platform for B2B support teams, offering a modern, AI-powered interface to consolidate support channels and assist customers efficiently.",
+    "toolkit_categories": [
+      {
+        "id": "customer-support",
+        "name": "customer support"
+      }
+    ],
+    "tools_count": 119.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 18,
+    "app_name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Help Scout",
+    "matched_toolkit_slug": "help_scout",
+    "toolkit_description": "Help Scout provides customer support software with shared inbox, knowledge base, and customer management tools",
+    "toolkit_categories": [
+      {
+        "id": "customer-support",
+        "name": "customer support"
+      },
+      {
+        "id": "communication",
+        "name": "communication"
+      }
+    ],
+    "tools_count": 129.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 19,
+    "app_name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Gorgias",
+    "matched_toolkit_slug": "gorgias",
+    "toolkit_description": "Gorgias is a helpdesk and live chat platform specializing in e-commerce, offering automated support, order management, and unified customer communication",
+    "toolkit_categories": [
+      {
+        "id": "crm",
+        "name": "crm"
+      },
+      {
+        "id": "customer-support",
+        "name": "customer support"
+      }
+    ],
+    "tools_count": 51.0,
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 20,
+    "app_name": "Gladly",
+    "category": "Support and Helpdesk",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 21,
+    "app_name": "Slack",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Slack",
+    "matched_toolkit_slug": "slack",
+    "toolkit_description": "Slack is a channel-based messaging platform. With Slack, people can work together more effectively, connect all their software tools and services, and find the information they need to do their best work - all within a secure, enterprise-grade environment.",
+    "toolkit_categories": [
+      {
+        "id": "team-chat",
+        "name": "team chat"
+      },
+      {
+        "id": "team-collaboration",
+        "name": "team collaboration"
+      }
+    ],
+    "tools_count": 165.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 22,
+    "app_name": "Twilio",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Twilio",
+    "matched_toolkit_slug": "twilio",
+    "toolkit_description": "Use shared API_KEY credentials for production account REST and all 45 triggers; per-connection BASIC for account administration and cross-account tools; or account S2S OAuth for mapped actions.",
+    "toolkit_categories": [
+      {
+        "id": "communication",
+        "name": "communication"
+      },
+      {
+        "id": "phone-&-sms",
+        "name": "phone & sms"
+      }
+    ],
+    "tools_count": 452.0,
+    "auth_schemes": [
+      "API_KEY",
+      "BASIC",
+      "S2S_OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 23,
+    "app_name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Zoho Cliq",
+    "matched_toolkit_slug": "zoho_cliq",
+    "toolkit_description": "Team communication and collaboration platform by Zoho with channels, bots, and integrations",
+    "toolkit_categories": [
+      {
+        "id": "communication",
+        "name": "communication"
+      }
+    ],
+    "tools_count": 162.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 24,
+    "app_name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Lark",
+    "matched_toolkit_slug": "lark",
+    "toolkit_description": "Enterprise collaboration platform with messaging, video conferencing, calendar, and document management",
+    "toolkit_categories": [
+      {
+        "id": "productivity",
+        "name": "productivity"
+      }
+    ],
+    "tools_count": 451.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 25,
+    "app_name": "Pumble",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Pumble",
+    "matched_toolkit_slug": "pumble",
+    "toolkit_description": "Pumble is a team communication platform for channels, direct messages, scheduled messages, and workspace collaboration.",
+    "toolkit_categories": [
+      {
+        "id": "team-chat",
+        "name": "team chat"
+      },
+      {
+        "id": "team-collaboration",
+        "name": "team collaboration"
+      }
+    ],
+    "tools_count": 9.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 26,
+    "app_name": "Discord",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Discord",
+    "matched_toolkit_slug": "discord",
+    "toolkit_description": "An instant messaging and VoIP social platform.",
+    "toolkit_categories": [
+      {
+        "id": "team-chat",
+        "name": "team chat"
+      },
+      {
+        "id": "team-collaboration",
+        "name": "team collaboration"
+      }
+    ],
+    "tools_count": 23.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 27,
+    "app_name": "Telegram",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Telegram",
+    "matched_toolkit_slug": "telegram",
+    "toolkit_description": "Telegram is a cloud-based messaging app with a focus on security and speed. Build bots to send messages, manage chats, and interact with users.",
+    "toolkit_categories": [
+      {
+        "id": "team-chat",
+        "name": "team chat"
+      },
+      {
+        "id": "notifications",
+        "name": "notifications"
+      }
+    ],
+    "tools_count": 18.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 28,
+    "app_name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 29,
+    "app_name": "Aircall",
+    "category": "Communications and Messaging",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Aircall",
+    "matched_toolkit_slug": "aircall",
+    "toolkit_description": "Aircall is a cloud-based phone and call-center platform. This toolkit manages users, teams, phone numbers, calls, contacts, and tags on a single Aircall company account via the Public API.",
+    "toolkit_categories": [
+      {
+        "id": "communication",
+        "name": "communication"
+      },
+      {
+        "id": "phone-&-sms",
+        "name": "phone & sms"
+      },
+      {
+        "id": "call-tracking",
+        "name": "call tracking"
+      }
+    ],
+    "tools_count": 48.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "BASIC"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 30,
+    "app_name": "Vonage",
+    "category": "Communications and Messaging",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 31,
+    "app_name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Google Ads",
+    "matched_toolkit_slug": "googleads",
+    "toolkit_description": "Google Ads, is an online advertising platform developed by Google, where advertisers bid to display brief advertisements, service offerings, product listings, and videos to web users.",
+    "toolkit_categories": [
+      {
+        "id": "ads-&-conversion",
+        "name": "ads & conversion"
+      }
+    ],
+    "tools_count": 78.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Meta Ads",
+    "matched_toolkit_slug": "metaads",
+    "toolkit_description": "Create, edit and get insights from ads across Meta technologies, including Facebook, Instagram, Messenger, WhatsApp and more.",
+    "toolkit_categories": [
+      {
+        "id": "ads-&-conversion",
+        "name": "ads & conversion"
+      },
+      {
+        "id": "social-media-marketing",
+        "name": "social media marketing"
+      }
+    ],
+    "tools_count": 99.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 33,
+    "app_name": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Linkedin Ads",
+    "matched_toolkit_slug": "linkedin_ads",
+    "toolkit_description": "LinkedIn Marketing and Advertising API for managing ad campaigns, analytics, and organization social content",
+    "toolkit_categories": [
+      {
+        "id": "marketing",
+        "name": "marketing"
+      },
+      {
+        "id": "ads-&-conversion",
+        "name": "ads & conversion"
+      }
+    ],
+    "tools_count": 28.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 34,
+    "app_name": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 35,
+    "app_name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Mailchimp",
+    "matched_toolkit_slug": "mailchimp",
+    "toolkit_description": "Mailchimp is an email marketing and automation platform providing campaign templates, audience segmentation, and performance analytics to drive engagement and conversions",
+    "toolkit_categories": [
+      {
+        "id": "email-newsletters",
+        "name": "email newsletters"
+      },
+      {
+        "id": "marketing-automation",
+        "name": "marketing automation"
+      }
+    ],
+    "tools_count": 275.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 36,
+    "app_name": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Klaviyo",
+    "matched_toolkit_slug": "klaviyo",
+    "toolkit_description": "Klaviyo is a data-driven email and SMS marketing platform that allows e-commerce brands to deliver targeted messages, track conversions, and scale customer relationships",
+    "toolkit_categories": [
+      {
+        "id": "marketing-automation",
+        "name": "marketing automation"
+      },
+      {
+        "id": "email-newsletters",
+        "name": "email newsletters"
+      }
+    ],
+    "tools_count": 233.0,
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 37,
+    "app_name": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 38,
+    "app_name": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Pinterest",
+    "matched_toolkit_slug": "pinterest",
+    "toolkit_description": "Pinterest is a visual discovery platform for finding ideas like recipes, home and style inspiration, and more.",
+    "toolkit_categories": [
+      {
+        "id": "social-media-accounts",
+        "name": "social media accounts"
+      },
+      {
+        "id": "marketing",
+        "name": "marketing"
+      }
+    ],
+    "tools_count": 27.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 39,
+    "app_name": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 40,
+    "app_name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "SendGrid",
+    "matched_toolkit_slug": "sendgrid",
+    "toolkit_description": "SendGrid is a cloud-based email delivery platform providing transactional and marketing email services, with APIs for integration, analytics, and scalability",
+    "toolkit_categories": [
+      {
+        "id": "transactional-email",
+        "name": "transactional email"
+      },
+      {
+        "id": "email-newsletters",
+        "name": "email newsletters"
+      }
+    ],
+    "tools_count": 359.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 41,
+    "app_name": "Shopify",
+    "category": "Ecommerce",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Shopify",
+    "matched_toolkit_slug": "shopify",
+    "toolkit_description": "Shopify is an e-commerce platform. This toolkit is GraphQL-first for new Admin API automations while retaining legacy REST compatibility actions for older workflows and numeric-ID interoperability",
+    "toolkit_categories": [
+      {
+        "id": "ecommerce",
+        "name": "ecommerce"
+      }
+    ],
+    "tools_count": 386.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 42,
+    "app_name": "WooCommerce",
+    "category": "Ecommerce",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 43,
+    "app_name": "BigCommerce",
+    "category": "Ecommerce",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "BigCommerce",
+    "matched_toolkit_slug": "bigcommerce",
+    "toolkit_description": "Manage BigCommerce stores, catalogs, orders, customers, channels, content, and settings through the Store Management APIs.",
+    "toolkit_categories": [
+      {
+        "id": "ecommerce",
+        "name": "ecommerce"
+      },
+      {
+        "id": "commerce",
+        "name": "commerce"
+      }
+    ],
+    "tools_count": 532.0,
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 44,
+    "app_name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 45,
+    "app_name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 46,
+    "app_name": "Squarespace",
+    "category": "Ecommerce",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 47,
+    "app_name": "Ecwid",
+    "category": "Ecommerce",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 48,
+    "app_name": "Gumroad",
+    "category": "Ecommerce",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Gumroad",
+    "matched_toolkit_slug": "gumroad",
+    "toolkit_description": "Gumroad simplifies selling digital goods, physical products, and memberships by offering a streamlined checkout, marketing tools, and direct payout options",
+    "toolkit_categories": [
+      {
+        "id": "ecommerce",
+        "name": "ecommerce"
+      }
+    ],
+    "tools_count": 13.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 49,
+    "app_name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 50,
+    "app_name": "fanbasis",
+    "category": "Ecommerce",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 51,
+    "app_name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "DataForSEO",
+    "matched_toolkit_slug": "dataforseo",
+    "toolkit_description": "SEO data and analytics platform providing SERP data, backlinks, keywords, and competitive intelligence",
+    "toolkit_categories": [
+      {
+        "id": "seo-&-ai-visibility",
+        "name": "seo & ai visibility"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      },
+      {
+        "id": "marketing",
+        "name": "marketing"
+      }
+    ],
+    "tools_count": 354.0,
+    "auth_schemes": [
+      "BASIC"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 52,
+    "app_name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 53,
+    "app_name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Ahrefs",
+    "matched_toolkit_slug": "ahrefs",
+    "toolkit_description": "Ahrefs is an SEO and marketing platform offering site audits, keyword research, content analysis, and competitive insights to improve search rankings and drive organic traffic",
+    "toolkit_categories": [
+      {
+        "id": "seo-&-ai-visibility",
+        "name": "seo & ai visibility"
+      },
+      {
+        "id": "marketing-automation",
+        "name": "marketing automation"
+      },
+      {
+        "id": "analytics",
+        "name": "analytics"
+      }
+    ],
+    "tools_count": 46.0,
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 54,
+    "app_name": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "MrScraper",
+    "matched_toolkit_slug": "mrscraper",
+    "toolkit_description": "MrScraper provides web scraping APIs for structured extraction, search results, marketplace data, travel data, and web unblocking.",
+    "toolkit_categories": [
+      {
+        "id": "web-scraping-&-browser",
+        "name": "web scraping & browser"
+      },
+      {
+        "id": "ai-web-scraping",
+        "name": "ai web scraping"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 11.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 55,
+    "app_name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Apify",
+    "matched_toolkit_slug": "apify",
+    "toolkit_description": "Apify is a platform for building, deploying, and managing web scraping and automation tools, known as Actors.",
+    "toolkit_categories": [
+      {
+        "id": "web-scraping-&-browser",
+        "name": "web scraping & browser"
+      },
+      {
+        "id": "ai-web-scraping",
+        "name": "ai web scraping"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 184.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 56,
+    "app_name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Firecrawl",
+    "matched_toolkit_slug": "firecrawl",
+    "toolkit_description": "Firecrawl automates web crawling and data extraction, enabling organizations to gather content, index sites, and gain insights from online sources at scale",
+    "toolkit_categories": [
+      {
+        "id": "web-scraping-&-browser",
+        "name": "web scraping & browser"
+      },
+      {
+        "id": "ai-web-scraping",
+        "name": "ai web scraping"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 245.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 57,
+    "app_name": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Bright Data",
+    "matched_toolkit_slug": "brightdata",
+    "toolkit_description": "Bright Data provides the world's #1 web data platform with Web Unlocker for bypassing anti-bot systems, SERP API for search engine data, and pre-made scrapers for popular websites. Collect any web data at scale.",
+    "toolkit_categories": [
+      {
+        "id": "web-scraping-&-browser",
+        "name": "web scraping & browser"
+      },
+      {
+        "id": "ai-web-scraping",
+        "name": "ai web scraping"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 167.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 58,
+    "app_name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 59,
+    "app_name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 60,
+    "app_name": "Clay",
+    "category": "Data, SEO and Scraping",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Clay",
+    "matched_toolkit_slug": "clay",
+    "toolkit_description": "Clay is a go-to-market data enrichment and workflow automation platform for searching people and companies, running routines, and querying workspace tables.",
+    "toolkit_categories": [
+      {
+        "id": "sales-&-crm",
+        "name": "sales & crm"
+      },
+      {
+        "id": "marketing-automation",
+        "name": "marketing automation"
+      }
+    ],
+    "tools_count": 15.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 61,
+    "app_name": "GitHub",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "GitHub",
+    "matched_toolkit_slug": "github",
+    "toolkit_description": "GitHub is a code hosting platform for version control and collaboration, offering Git-based repository management, issue tracking, and continuous integration features",
+    "toolkit_categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 883.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 62,
+    "app_name": "Vercel",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Vercel",
+    "matched_toolkit_slug": "vercel",
+    "toolkit_description": "Vercel is a platform for frontend frameworks and static sites, enabling developers to host websites and web services that deploy instantly, scale automatically, and require minimal configuration.",
+    "toolkit_categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 399.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 63,
+    "app_name": "Netlify",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 64,
+    "app_name": "Cloudflare",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Cloudflare",
+    "matched_toolkit_slug": "cloudflare",
+    "toolkit_description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.",
+    "toolkit_categories": [
+      {
+        "id": "security-&-identity-tools",
+        "name": "security & identity tools"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 171.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 65,
+    "app_name": "Supabase",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Supabase",
+    "matched_toolkit_slug": "supabase",
+    "toolkit_description": "Supabase is an open-source backend-as-a-service providing a Postgres database, authentication, storage, and real-time subscription APIs for building modern applications",
+    "toolkit_categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      },
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tools_count": 230.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 66,
+    "app_name": "Neo4j",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Neo4J",
+    "matched_toolkit_slug": "neo4j",
+    "toolkit_description": "Graph database platform for connected data and real-time analytics",
+    "toolkit_categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 21.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "BASIC",
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 67,
+    "app_name": "Snowflake",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Snowflake",
+    "matched_toolkit_slug": "snowflake",
+    "toolkit_description": "Snowflake is a cloud-based data warehouse offering elastic scaling, secure data sharing, and SQL analytics across multiple cloud environments",
+    "toolkit_categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      },
+      {
+        "id": "analytics",
+        "name": "analytics"
+      }
+    ],
+    "tools_count": 16.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 68,
+    "app_name": "MongoDB Atlas",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 69,
+    "app_name": "Datadog",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Datadog",
+    "matched_toolkit_slug": "datadog",
+    "toolkit_description": "Datadog offers monitoring, observability, and security for cloud-scale applications, unifying metrics, logs, and traces to help teams detect issues and optimize performance",
+    "toolkit_categories": [
+      {
+        "id": "server-monitoring",
+        "name": "server monitoring"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 255.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY",
+      "BEARER_TOKEN"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 70,
+    "app_name": "Sentry",
+    "category": "Developer, Infra and Data Platforms",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Sentry",
+    "matched_toolkit_slug": "sentry",
+    "toolkit_description": "Integrate Sentry to manage your error tracking and monitoring.",
+    "toolkit_categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      },
+      {
+        "id": "server-monitoring",
+        "name": "server monitoring"
+      }
+    ],
+    "tools_count": 210.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 71,
+    "app_name": "Notion",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Notion",
+    "matched_toolkit_slug": "notion",
+    "toolkit_description": "Notion centralizes notes, docs, wikis, and tasks in a unified workspace, letting teams build custom workflows for collaboration and knowledge management",
+    "toolkit_categories": [
+      {
+        "id": "notes",
+        "name": "notes"
+      },
+      {
+        "id": "documents",
+        "name": "documents"
+      },
+      {
+        "id": "project-management",
+        "name": "project management"
+      }
+    ],
+    "tools_count": 57.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 72,
+    "app_name": "Airtable",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Airtable",
+    "matched_toolkit_slug": "airtable",
+    "toolkit_description": "Airtable merges spreadsheet functionality with database power, enabling teams to organize projects, track tasks, and collaborate through customizable views, automation, and integrations for data management",
+    "toolkit_categories": [
+      {
+        "id": "productivity",
+        "name": "productivity"
+      },
+      {
+        "id": "spreadsheets",
+        "name": "spreadsheets"
+      },
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tools_count": 26.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 73,
+    "app_name": "Linear",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Linear",
+    "matched_toolkit_slug": "linear",
+    "toolkit_description": "Linear is a streamlined issue tracking and project planning tool for modern teams, featuring fast workflows, keyboard shortcuts, and GitHub integrations",
+    "toolkit_categories": [
+      {
+        "id": "project-management",
+        "name": "project management"
+      },
+      {
+        "id": "task-management",
+        "name": "task management"
+      }
+    ],
+    "tools_count": 47.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 74,
+    "app_name": "Jira",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Jira",
+    "matched_toolkit_slug": "jira",
+    "toolkit_description": "A tool for bug tracking, issue tracking, and agile project management.",
+    "toolkit_categories": [
+      {
+        "id": "project-management",
+        "name": "project management"
+      },
+      {
+        "id": "task-management",
+        "name": "task management"
+      }
+    ],
+    "tools_count": 166.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 75,
+    "app_name": "Asana",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Asana",
+    "matched_toolkit_slug": "asana",
+    "toolkit_description": "Tool to help teams organize, track, and manage their work.",
+    "toolkit_categories": [
+      {
+        "id": "project-management",
+        "name": "project management"
+      },
+      {
+        "id": "task-management",
+        "name": "task management"
+      }
+    ],
+    "tools_count": 247.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 76,
+    "app_name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Monday",
+    "matched_toolkit_slug": "monday",
+    "toolkit_description": "monday.com is a customizable work management platform for project planning, collaboration, and automation, supporting agile, sales, marketing, and more",
+    "toolkit_categories": [
+      {
+        "id": "project-management",
+        "name": "project management"
+      },
+      {
+        "id": "task-management",
+        "name": "task management"
+      }
+    ],
+    "tools_count": 122.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 77,
+    "app_name": "ClickUp",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "ClickUp",
+    "matched_toolkit_slug": "clickup",
+    "toolkit_description": "ClickUp unifies tasks, docs, goals, and chat in a single platform, allowing teams to plan, organize, and collaborate across projects with customizable workflows",
+    "toolkit_categories": [
+      {
+        "id": "productivity",
+        "name": "productivity"
+      },
+      {
+        "id": "project-management",
+        "name": "project management"
+      },
+      {
+        "id": "task-management",
+        "name": "task management"
+      }
+    ],
+    "tools_count": 163.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 78,
+    "app_name": "Coda",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Coda",
+    "matched_toolkit_slug": "coda",
+    "toolkit_description": "Collaborative workspace platform that transforms documents into powerful tools for team productivity and project management",
+    "toolkit_categories": [
+      {
+        "id": "productivity",
+        "name": "productivity"
+      },
+      {
+        "id": "project-management",
+        "name": "project management"
+      }
+    ],
+    "tools_count": 109.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 79,
+    "app_name": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Smartsheet",
+    "matched_toolkit_slug": "smartsheet",
+    "toolkit_description": "Smartsheet is a collaborative work management platform for organizing projects, sheets, reports, dashboards, workflows, and teams.",
+    "toolkit_categories": [
+      {
+        "id": "project-management",
+        "name": "project management"
+      },
+      {
+        "id": "spreadsheets",
+        "name": "spreadsheets"
+      },
+      {
+        "id": "task-management",
+        "name": "task management"
+      }
+    ],
+    "tools_count": 180.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "BEARER_TOKEN"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 80,
+    "app_name": "Harvest",
+    "category": "Productivity and Project Management",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Harvest",
+    "matched_toolkit_slug": "harvest",
+    "toolkit_description": "Harvest is a time-tracking and invoicing tool designed for teams and freelancers, helping them log billable hours, manage projects, and streamline payments",
+    "toolkit_categories": [
+      {
+        "id": "time-tracking-software",
+        "name": "time tracking software"
+      },
+      {
+        "id": "proposal-&-invoice-management",
+        "name": "proposal & invoice management"
+      }
+    ],
+    "tools_count": 57.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 81,
+    "app_name": "Stripe",
+    "category": "Finance and Fintech",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Stripe",
+    "matched_toolkit_slug": "stripe",
+    "toolkit_description": "Stripe offers online payment infrastructure, fraud prevention, and APIs enabling businesses to accept and manage payments globally",
+    "toolkit_categories": [
+      {
+        "id": "payment-processing",
+        "name": "payment processing"
+      },
+      {
+        "id": "ecommerce",
+        "name": "ecommerce"
+      }
+    ],
+    "tools_count": 428.0,
+    "auth_schemes": [
+      "API_KEY",
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 82,
+    "app_name": "Plaid",
+    "category": "Finance and Fintech",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Plaid",
+    "matched_toolkit_slug": "plaid",
+    "toolkit_description": "Plaid provides financial data aggregation and banking APIs for applications to connect with users' bank accounts",
+    "toolkit_categories": [
+      {
+        "id": "commerce",
+        "name": "commerce"
+      }
+    ],
+    "tools_count": 70.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 83,
+    "app_name": "Binance",
+    "category": "Finance and Fintech",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 84,
+    "app_name": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 85,
+    "app_name": "iPayX",
+    "category": "Finance and Fintech",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 86,
+    "app_name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "QuickBooks",
+    "matched_toolkit_slug": "quickbooks",
+    "toolkit_description": "Quickbooks is a cloud-based accounting software that helps you manage your finances, track your income and expenses, and get insights into your business",
+    "toolkit_categories": [
+      {
+        "id": "accounting",
+        "name": "accounting"
+      },
+      {
+        "id": "payment-processing",
+        "name": "payment processing"
+      }
+    ],
+    "tools_count": 119.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 87,
+    "app_name": "Xero",
+    "category": "Finance and Fintech",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Xero",
+    "matched_toolkit_slug": "xero",
+    "toolkit_description": "Xero is a cloud-based accounting software for small businesses, providing invoicing, bank reconciliation, bookkeeping, and financial reporting in real time",
+    "toolkit_categories": [
+      {
+        "id": "accounting",
+        "name": "accounting"
+      }
+    ],
+    "tools_count": 109.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 88,
+    "app_name": "Brex",
+    "category": "Finance and Fintech",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Brex",
+    "matched_toolkit_slug": "brex",
+    "toolkit_description": "Brex provides corporate credit cards, spend management, and financial tools tailored for startups and tech businesses to optimize cash flow, accounting, and growth",
+    "toolkit_categories": [
+      {
+        "id": "accounting",
+        "name": "accounting"
+      }
+    ],
+    "tools_count": 84.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 89,
+    "app_name": "Ramp",
+    "category": "Finance and Fintech",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Ramp",
+    "matched_toolkit_slug": "ramp",
+    "toolkit_description": "Ramp is a platform that helps you manage your finances, track your income and expenses, and get insights into your business",
+    "toolkit_categories": [
+      {
+        "id": "accounting",
+        "name": "accounting"
+      }
+    ],
+    "tools_count": 186.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 90,
+    "app_name": "PitchBook",
+    "category": "Finance and Fintech",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "PitchBook",
+    "matched_toolkit_slug": "pitchbook",
+    "toolkit_description": "PitchBook provides private-market data on companies, deals, funds, investors, people, and service providers through its contracted REST API.",
+    "toolkit_categories": [
+      {
+        "id": "business-intelligence",
+        "name": "business intelligence"
+      },
+      {
+        "id": "analytics",
+        "name": "analytics"
+      }
+    ],
+    "tools_count": 130.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 91,
+    "app_name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "NotebookLM",
+    "matched_toolkit_slug": "notebook_lm",
+    "toolkit_description": "NotebookLM Enterprise is Google's licensed, source-grounded notebook service for organizing sources in global-location deployments.",
+    "toolkit_categories": [
+      {
+        "id": "ai-assistants",
+        "name": "ai assistants"
+      },
+      {
+        "id": "notes",
+        "name": "notes"
+      },
+      {
+        "id": "education",
+        "name": "education"
+      }
+    ],
+    "tools_count": 11.0,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 92,
+    "app_name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 93,
+    "app_name": "Fathom",
+    "category": "AI, Research and Media-native",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Fathom",
+    "matched_toolkit_slug": "fathom",
+    "toolkit_description": "AI meeting assistant that records, transcribes, and summarizes meetings",
+    "toolkit_categories": [
+      {
+        "id": "ai-meeting-assistants",
+        "name": "ai meeting assistants"
+      },
+      {
+        "id": "transcription",
+        "name": "transcription"
+      }
+    ],
+    "tools_count": 10.0,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [
+      "OAUTH2"
+    ],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 94,
+    "app_name": "Consensus",
+    "category": "AI, Research and Media-native",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Consensus",
+    "matched_toolkit_slug": "consensus",
+    "toolkit_description": "Consensus provides evidence-based search across scientific research papers.",
+    "toolkit_categories": [
+      {
+        "id": "web-search-&-research",
+        "name": "web search & research"
+      },
+      {
+        "id": "artificial-intelligence",
+        "name": "artificial intelligence"
+      },
+      {
+        "id": "education",
+        "name": "education"
+      }
+    ],
+    "tools_count": 1.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 95,
+    "app_name": "Reducto",
+    "category": "AI, Research and Media-native",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 96,
+    "app_name": "Devin",
+    "category": "AI, Research and Media-native",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 97,
+    "app_name": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Higgsfield",
+    "matched_toolkit_slug": "higgsfield",
+    "toolkit_description": "Higgsfield AI provides asynchronous image and video generation APIs powered by multiple creative AI models.",
+    "toolkit_categories": [
+      {
+        "id": "media-generation",
+        "name": "media generation"
+      },
+      {
+        "id": "artificial-intelligence",
+        "name": "artificial intelligence"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tools_count": 13.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 98,
+    "app_name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "match_status": "no_match",
+    "matched_toolkit_name": null,
+    "matched_toolkit_slug": null,
+    "match_reason": "No exact or explicitly defined alias match found"
+  },
+  {
+    "app_id": 99,
+    "app_name": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "YouTube Transcript",
+    "matched_toolkit_slug": "youtube_transcript",
+    "toolkit_description": "Retrieve and store captions for one video or a bounded batch, read job and batch status, access stored transcripts and languages, and resolve playlist or channel video metadata through the YouTube Transcript REST API.",
+    "toolkit_categories": [
+      {
+        "id": "audio-&-speech",
+        "name": "audio & speech"
+      },
+      {
+        "id": "transcription",
+        "name": "transcription"
+      },
+      {
+        "id": "video-&-audio",
+        "name": "video & audio"
+      }
+    ],
+    "tools_count": 9.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  },
+  {
+    "app_id": 100,
+    "app_name": "Grain",
+    "category": "AI, Research and Media-native",
+    "match_status": "confirmed_match",
+    "matched_toolkit_name": "Grain",
+    "matched_toolkit_slug": "grain",
+    "toolkit_description": "Grain records, transcribes, and organizes meetings so teams can review conversations, share insights, and manage meeting content.",
+    "toolkit_categories": [
+      {
+        "id": "ai-meeting-assistants",
+        "name": "ai meeting assistants"
+      },
+      {
+        "id": "transcription",
+        "name": "transcription"
+      },
+      {
+        "id": "video-&-audio",
+        "name": "video & audio"
+      }
+    ],
+    "tools_count": 17.0,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "composio_managed_auth_schemes": [],
+    "no_auth": false,
+    "match_reason": "Exact normalized name or explicit alias match"
+  }
+]

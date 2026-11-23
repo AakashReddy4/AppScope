@@ -1,0 +1,538 @@
+{
+  "checks": [
+    {
+      "app_id": 4,
+      "field": "authentication_methods",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "OAuth2"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://docs.attio.com/rest-api/guides/authentication",
+      "notes": "Official documentation confirms OAuth 2.0 and workspace API keys. Automated finding detected OAuth2 but missed API key authentication.",
+      "checked_at": "2026-11-23T17:18:58+00:00"
+    },
+    {
+      "app_id": 4,
+      "field": "api_surface",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "REST",
+        "GraphQL"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://docs.attio.com/rest-api/overview",
+      "notes": "Official overview explicitly confirms a public REST API. The automated finding also listed GraphQL, which was not established by this verification.",
+      "checked_at": "2026-11-23T17:19:05+00:00"
+    },
+    {
+      "app_id": 6,
+      "field": "authentication_methods",
+      "verdict": "verified",
+      "original_finding": [
+        "OAuth2",
+        "API key"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developers.podio.com/authentication",
+      "notes": "Official documentation confirms OAuth2 authentication. Podio also documents API key generation for accessing Podio data.",
+      "checked_at": "2026-11-23T17:19:13+00:00"
+    },
+    {
+      "app_id": 6,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developers.podio.com/doc/reference",
+      "notes": "Official Podio API reference documents the API resources and operations.",
+      "checked_at": "2026-11-23T17:19:20+00:00"
+    },
+    {
+      "app_id": 8,
+      "field": "authentication_methods",
+      "verdict": "verified",
+      "original_finding": [
+        "OAuth2",
+        "API key",
+        "Basic authentication"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developer.close.com/api/overview",
+      "notes": "Official documentation explicitly confirms API keys using HTTP Basic Auth and OAuth 2.0.",
+      "checked_at": "2026-11-23T17:19:25+00:00"
+    },
+    {
+      "app_id": 8,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developer.close.com/api/overview",
+      "notes": "Official documentation explicitly identifies the Close API as a REST API.",
+      "checked_at": "2026-11-23T17:19:29+00:00"
+    },
+    {
+      "app_id": 61,
+      "field": "authentication_methods",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Other"
+      ],
+      "corrected_finding": "Personal access tokens, OAuth tokens, and GitHub App tokens",
+      "evidence_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "notes": "Agent detected generic authentication and JWT but missed the specific supported token methods.",
+      "checked_at": "2026-11-23T18:01:33+00:00"
+    },
+    {
+      "app_id": 61,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST",
+        "GraphQL"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://docs.github.com/en/rest/about-the-rest-api/comparing-githubs-rest-api-and-graphql-api",
+      "notes": "Official documentation confirms both REST and GraphQL APIs.",
+      "checked_at": "2026-11-23T18:01:46+00:00"
+    },
+    {
+      "app_id": 61,
+      "field": "mcp_availability",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Composio toolkit",
+        "No verified MCP found"
+      ],
+      "corrected_finding": "Official GitHub MCP server available",
+      "evidence_url": "https://github.com/github/github-mcp-server",
+      "notes": "Agent reported no verified MCP, but GitHub maintains an official MCP server.",
+      "checked_at": "2026-11-23T18:01:56+00:00"
+    },
+    {
+      "app_id": 61,
+      "field": "access_model",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Public API access is available without authentication, subject to rate limits; authenticated access provides higher limits.",
+      "evidence_url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+      "notes": "Agent returned Unknown. Public API access is available, but the finding was incomplete.",
+      "checked_at": "2026-11-23T18:02:06+00:00"
+    },
+    {
+      "app_id": 1,
+      "field": "authentication_methods",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "OAuth 2.0 using external client apps or existing connected apps",
+      "evidence_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "notes": "Agent returned Unknown because the developer portal fetch failed with HTTP 403. Official documentation confirms OAuth 2.0 authentication.",
+      "checked_at": "2026-11-23T18:09:20+00:00"
+    },
+    {
+      "app_id": 1,
+      "field": "api_surface",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "REST, SOAP, Bulk, GraphQL and Pub/Sub APIs, among other API families",
+      "evidence_url": "https://developer.salesforce.com/developer-centers/integration-apis",
+      "notes": "Agent returned Unknown after its developer portal fetch failed. Salesforce official documentation lists multiple API families.",
+      "checked_at": "2026-11-23T18:10:41+00:00"
+    },
+    {
+      "app_id": 1,
+      "field": "mcp_availability",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Composio toolkit",
+        "No verified MCP found"
+      ],
+      "corrected_finding": "Official Salesforce Hosted MCP Servers are available; administrator activation and OAuth configuration are required.",
+      "evidence_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+      "notes": "Agent missed Salesforce Hosted MCP Servers. Official documentation confirms availability. Servers are disabled by default and require administrator activation.",
+      "checked_at": "2026-11-23T18:11:19+00:00"
+    },
+    {
+      "app_id": 1,
+      "field": "access_model",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Free Developer Edition available for development and testing; production API access and features depend on Salesforce edition, licensing and permissions.",
+      "evidence_url": "https://developer.salesforce.com/signup",
+      "notes": "Agent returned Unknown. Free Developer Edition exists, but API access and capabilities are edition- and permission-dependent.",
+      "checked_at": "2026-11-23T18:12:22+00:00"
+    },
+    {
+      "app_id": 11,
+      "field": "authentication_methods",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "OAuth 2.0 (recommended); legacy API-token-based Basic authentication is being retired.",
+      "evidence_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "notes": "Agent returned Unknown. Official Zendesk documentation confirms OAuth authentication and documents the deprecation of API tokens.",
+      "checked_at": "2026-11-23T18:13:18+00:00"
+    },
+    {
+      "app_id": 11,
+      "field": "access_model",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Self-serve 14-day free trial; eligible developer partners may obtain a sponsored Support account. Ongoing production use generally requires a paid subscription.",
+      "evidence_url": "https://developer.zendesk.com/documentation/api-basics/",
+      "notes": "Agent returned Unknown. Official developer documentation confirms a free trial and sponsored developer accounts; this is not equivalent to unrestricted permanent free access.",
+      "checked_at": "2026-11-23T18:13:42+00:00"
+    },
+    {
+      "app_id": 11,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developer.zendesk.com/api-reference/",
+      "notes": "Official Zendesk API reference confirms REST APIs across multiple product capabilities.",
+      "checked_at": "2026-11-23T18:15:06+00:00"
+    },
+    {
+      "app_id": 11,
+      "field": "mcp_availability",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Community MCP server",
+        "Composio toolkit"
+      ],
+      "corrected_finding": "Community MCP servers available; official Zendesk MCP server also available through Zendesk Bridge EAP.",
+      "evidence_url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+      "notes": "Agent identified a community MCP server correctly but missed Zendesk's official MCP server. Distinguish Zendesk MCP server from its separate MCP client.",
+      "checked_at": "2026-11-23T18:15:34+00:00"
+    },
+    {
+      "app_id": 21,
+      "field": "authentication_methods",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "OAuth 2.0 authorization flow with bot and user access tokens; bearer tokens are used for API requests.",
+      "evidence_url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+      "notes": "Agent returned Unknown because its searches failed. Official Slack documentation confirms OAuth 2.0 and token-based authentication.",
+      "checked_at": "2026-11-23T18:16:54+00:00"
+    },
+    {
+      "app_id": 21,
+      "field": "api_surface",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "HTTP RPC-style Web API; not REST.",
+      "evidence_url": "https://docs.slack.dev/apis/web-api/",
+      "notes": "Agent returned Unknown. Official documentation explicitly describes Slack Web API as HTTP RPC-style rather than REST.",
+      "checked_at": "2026-11-23T18:18:11+00:00"
+    },
+    {
+      "app_id": 21,
+      "field": "mcp_availability",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Composio toolkit"
+      ],
+      "corrected_finding": "Official Slack-hosted MCP server available at https://mcp.slack.com/mcp.",
+      "evidence_url": "https://docs.slack.dev/ai/slack-mcp-server/",
+      "notes": "Agent detected only a Composio toolkit and missed Slack's official MCP server.",
+      "checked_at": "2026-11-23T18:18:19+00:00"
+    },
+    {
+      "app_id": 21,
+      "field": "access_model",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Free Developer Program sandbox available; production integrations depend on workspace access, app permissions and applicable plan restrictions.",
+      "evidence_url": "https://docs.slack.dev/",
+      "notes": "Agent returned Unknown. Official Slack developer documentation advertises a free Developer Program sandbox.",
+      "checked_at": "2026-11-23T18:18:26+00:00"
+    },
+    {
+      "app_id": 22,
+      "field": "authentication_methods",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "API keys with HTTP Basic authentication; Account SID and Auth Token; OAuth 2.0 for supported integrations.",
+      "evidence_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "notes": "Agent returned Unknown. Official documentation confirms multiple authentication methods.",
+      "checked_at": "2026-11-23T18:20:14+00:00"
+    },
+    {
+      "app_id": 22,
+      "field": "access_model",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Self-serve 30-day free trial without credit card, with limited product-specific free units; production usage is pay-as-you-go.",
+      "evidence_url": "https://www.twilio.com/docs/usage/trials",
+      "notes": "Agent returned Unknown. Official documentation confirms free trial API access with restrictions and paid usage after trial.",
+      "checked_at": "2026-11-23T18:20:19+00:00"
+    },
+    {
+      "app_id": 22,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "notes": "Official documentation confirms Twilio REST APIs and HTTP requests.",
+      "checked_at": "2026-11-23T18:20:24+00:00"
+    },
+    {
+      "app_id": 22,
+      "field": "mcp_availability",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Composio toolkit",
+        "No verified MCP found"
+      ],
+      "corrected_finding": "Official hosted Twilio MCP server available at https://mcp.twilio.com/docs (Public Beta).",
+      "evidence_url": "https://www.twilio.com/docs/ai/mcp",
+      "notes": "Agent missed Twilio's official hosted MCP server. It provides read-only API documentation search and retrieval.",
+      "checked_at": "2026-11-23T18:20:29+00:00"
+    },
+    {
+      "app_id": 31,
+      "field": "authentication_methods",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "OAuth2",
+        "Bearer/token authentication",
+        "Other"
+      ],
+      "corrected_finding": "OAuth 2.0 user or service-account credentials, Bearer access tokens, and a mandatory Google Ads developer token.",
+      "evidence_url": "https://developers.google.com/google-ads/api/rest/auth",
+      "notes": "Agent identified OAuth2 and Bearer authentication but did not clearly identify the mandatory developer token required for API calls.",
+      "checked_at": "2026-11-23T18:21:32+00:00"
+    },
+    {
+      "app_id": 31,
+      "field": "access_model",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Test access available; production access requires approved Basic or Standard developer-token access. Developer token application is available through a Google Ads manager account.",
+      "evidence_url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+      "notes": "Agent returned Unknown. Official documentation confirms test access and an application-based production access process.",
+      "checked_at": "2026-11-23T18:21:42+00:00"
+    },
+    {
+      "app_id": 31,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST",
+        "Other"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developers.google.com/google-ads/api/docs/concepts/call-structure",
+      "notes": "Agent identified REST and Other; official documentation confirms both REST and gRPC API interfaces.",
+      "checked_at": "2026-11-23T18:21:46+00:00"
+    },
+    {
+      "app_id": 31,
+      "field": "mcp_availability",
+      "verdict": "verified",
+      "original_finding": [
+        "Official MCP server",
+        "Composio toolkit"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "notes": "Agent correctly identified the official Google Ads MCP server, confirmed by Google's developer documentation.",
+      "checked_at": "2026-11-23T18:21:52+00:00"
+    },
+    {
+      "app_id": 41,
+      "field": "authentication_methods",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "OAuth 2.0 authorization code grant, token exchange, client credentials grant, and API-specific access tokens.",
+      "evidence_url": "https://shopify.dev/docs/api/usage/authentication",
+      "notes": "Agent returned Unknown. Official Shopify documentation describes multiple OAuth-based authentication flows and access tokens.",
+      "checked_at": "2026-11-23T18:25:59+00:00"
+    },
+    {
+      "app_id": 41,
+      "field": "access_model",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Self-serve development stores are available through a Shopify Partner account or eligible merchant organization. Production public app distribution requires Shopify review and App Store registration.",
+      "evidence_url": "https://shopify.dev/docs/apps/build/stores/development-stores",
+      "notes": "Agent returned Unknown. Official docs confirm development access and distinguish it from public production distribution.",
+      "checked_at": "2026-11-23T18:26:05+00:00"
+    },
+    {
+      "app_id": 41,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST",
+        "GraphQL"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://shopify.dev/docs/api",
+      "notes": "Agent identified REST and GraphQL correctly. Official docs confirm both, while noting REST Admin API is legacy and new public apps must use GraphQL.",
+      "checked_at": "2026-11-23T18:26:10+00:00"
+    },
+    {
+      "app_id": 41,
+      "field": "mcp_availability",
+      "verdict": "verified",
+      "original_finding": [
+        "Official MCP server",
+        "Composio toolkit"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://shopify.dev/docs/api/shopify-mcp",
+      "notes": "Official Shopify documentation confirms Shopify MCP. Additional official offerings include Shop MCP and Shopify dev MCP. Agent correctly detected official MCP availability.",
+      "checked_at": "2026-11-23T18:26:15+00:00"
+    },
+    {
+      "app_id": 42,
+      "field": "authentication_methods",
+      "verdict": "verified",
+      "original_finding": [
+        "API key",
+        "Basic authentication"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication",
+      "notes": "Agent correctly identified API keys and Basic authentication. Official documentation also describes OAuth 1.0a authentication over HTTP.",
+      "checked_at": "2026-11-23T18:28:00+00:00"
+    },
+    {
+      "app_id": 42,
+      "field": "access_model",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Self-serve API access: WooCommerce core is free and open source. Store owners generate REST API keys from their WordPress dashboard. A WordPress installation and hosting are required; hosting costs are separate.",
+      "evidence_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "notes": "Agent returned Unknown. Official documentation describes generating API keys directly from the store dashboard.",
+      "checked_at": "2026-11-23T18:28:13+00:00"
+    },
+    {
+      "app_id": 42,
+      "field": "api_surface",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "REST",
+        "GraphQL"
+      ],
+      "corrected_finding": "Native WooCommerce REST API integrated with the WordPress REST API. GraphQL is available through separate WordPress plugins rather than the standard WooCommerce core REST API.",
+      "evidence_url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+      "notes": "Agent identified REST correctly but overgeneralized GraphQL availability as a native API surface.",
+      "checked_at": "2026-11-23T18:28:20+00:00"
+    },
+    {
+      "app_id": 42,
+      "field": "mcp_availability",
+      "verdict": "incorrect",
+      "original_finding": [
+        "No verified MCP found"
+      ],
+      "corrected_finding": "Official WooCommerce MCP integration is available through WordPress MCP Adapter, currently documented as a developer preview. It requires setup and appropriate WordPress permissions; it is not a fully managed hosted MCP service.",
+      "evidence_url": "https://developer.woocommerce.com/docs/features/mcp/",
+      "notes": "Agent reported no verified MCP. Official WooCommerce developer documentation confirms MCP integration through the WordPress MCP Adapter.",
+      "checked_at": "2026-11-23T18:28:26+00:00"
+    },
+    {
+      "app_id": 43,
+      "field": "authentication_methods",
+      "verdict": "verified",
+      "original_finding": [
+        "OAuth2",
+        "API key"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+      "notes": "Agent identified OAuth2 and API key authentication. Official documentation confirms OAuth-based store-level, app-level and account-level API credentials. Legacy API accounts used Basic authentication but are no longer issued to new stores.",
+      "checked_at": "2026-11-23T18:29:46+00:00"
+    },
+    {
+      "app_id": 43,
+      "field": "access_model",
+      "verdict": "incorrect",
+      "original_finding": [
+        "Unknown"
+      ],
+      "corrected_finding": "Self-serve development access through a free BigCommerce trial store. Developers can create API credentials and test integrations. Production usage requires a BigCommerce store and applicable subscription.",
+      "evidence_url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+      "notes": "Agent returned Unknown. Official quick-start documentation confirms a free trial store and self-serve API setup.",
+      "checked_at": "2026-11-23T18:29:51+00:00"
+    },
+    {
+      "app_id": 43,
+      "field": "api_surface",
+      "verdict": "verified",
+      "original_finding": [
+        "REST",
+        "GraphQL"
+      ],
+      "corrected_finding": null,
+      "evidence_url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+      "notes": "Agent correctly identified REST and GraphQL. Official documentation confirms REST Management APIs and GraphQL APIs, including Admin and Storefront interfaces.",
+      "checked_at": "2026-11-23T18:29:55+00:00"
+    },
+    {
+      "app_id": 43,
+      "field": "mcp_availability",
+      "verdict": "partially_correct",
+      "original_finding": [
+        "Official MCP server",
+        "Community MCP server",
+        "Composio toolkit"
+      ],
+      "corrected_finding": "Official BigCommerce MCP capabilities include Storefront MCP (generally available), WebMCP (available on eligible storefronts), and Store Management MCP (early access). Community MCP projects may also exist. A Composio toolkit is separate from vendor MCP availability.",
+      "evidence_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+      "notes": "Agent correctly detected official MCP and a community project. Official documentation confirms multiple vendor MCP capabilities. Composio toolkit availability must not be counted as a vendor MCP server.",
+      "checked_at": "2026-11-23T18:30:00+00:00"
+    }
+  ],
+  "accuracy": {
+    "fields_checked": 42,
+    "verified": 14,
+    "incorrect": 14,
+    "partially_correct": 14,
+    "accuracy_percentage": 33.3,
+    "basis": "Percentage of human-checked fields marked verified. Unchecked apps and fields are excluded."
+  },
+  "note": "Accuracy is calculated only for fields a human has marked. It is not a claim about unchecked research."
+}
