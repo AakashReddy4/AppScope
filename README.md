@@ -1,4 +1,4 @@
-# AppScope — AI Integration Intelligence
+﻿# AppScope â€” AI Integration Intelligence
 
 Take-home project for the AI Product Operations Intern role at Composio.
 
@@ -80,7 +80,7 @@ Verdicts are `verified`, `incorrect`, or `partially_correct`. Accuracy is the sh
 - Official pages can mention more than one product. Shared company domains are not treated as a match for a different product.
 - Buildability stays `Unknown` when the API type or the access model was not verified.
 - No blocker is recorded only because credentials were unavailable.
-- The case-study page is not built yet.
+- Live case study: https://aakashreddy4.github.io/AppScope/
 
 ## Current data
 
@@ -97,3 +97,4 @@ Verdicts are `verified`, `incorrect`, or `partially_correct`. Accuracy is the sh
 | `data/research_failures.json` | Exceptions that did not stop the run |
 | `data/insights.json` | Aggregate research summary |
 | `data/verification_results.json` | Human checks |
+

@@ -149,7 +149,7 @@ footer{border-top:1px solid var(--line);padding:25px 5vw;color:var(--muted);font
 <div class="card">
 <div class="metric accent">51</div>
 <b>API keys lead authentication</b>
-<p class="label">API keys were detected more frequently than OAuth2, which appeared 37 times. Apps may support multiple authentication methods.</p>
+<p class="label">API keys were detected more frequently than OAuth2, which appeared 38 times. Apps may support multiple authentication methods.</p>
 </div>
 
 <div class="card">
@@ -269,4 +269,5 @@ print(f"Report generated: {output}")
 print(f"Applications in scope: {len(records)}")
 print(f"Research completed: {completed}")
 print(f"Manual verification checks: {len(checks)}")
+
 
