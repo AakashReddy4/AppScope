@@ -19,6 +19,7 @@ apps = load_json("apps.json", [])
 results = load_json("research_results.json", [])
 coverage = load_json("composio_coverage.json", [])
 verification = load_json("verification_results.json", {"checks": [], "summary": {}})
+insights = load_json("insights.json", {})
 
 if isinstance(verification, list):
     checks = verification
@@ -68,10 +69,14 @@ for category in sorted(set(x.get("category", "Other") for x in records)):
         "name": category,
         "total": len(group),
         "researched": len(done),
-        "easy": sum(x.get("buildability") == "Easy" for x in done),
-        "difficult": sum(x.get("buildability") == "Difficult" for x in done),
-        "blocked": sum(x.get("buildability") == "Blocked" for x in done),
-        "unknown": sum(x.get("buildability") == "Unknown" for x in done)
+	"easy": sum(x.get("buildability") == "Easy" for x in done),
+	"moderate": sum(x.get("buildability") == "Moderate" for x in done),
+	"difficult": sum(x.get("buildability") == "Difficult" for x in done),
+	"blocked": sum(x.get("buildability") == "Blocked" for x in done),
+	"unknown": sum(
+	    x.get("buildability") not in ("Easy", "Moderate", "Difficult", "Blocked")
+	    for x in done
+	)
     })
 
 payload = {
@@ -92,7 +97,10 @@ payload = {
             k: v for k, v in labels("mcp_availability").items()
             if k != "Composio toolkit"
         },
-        "buildability": labels("buildability"),
+	"buildability": {
+	    **insights.get("buildability", {}).get("agent_assessed_counts", {}),
+	    "Unknown": insights.get("buildability", {}).get("unknown", 0)
+	},
         "categories": category_stats
     },
     "verification": verification
@@ -168,7 +176,14 @@ These are automated research findings, not independently confirmed facts for eve
 </div>
 </section>
 <section class="section" id="explorer"><h2>Application explorer</h2><p class="hint">Search applications, filter by category or research status, and expand a record to inspect evidence and limitations.</p>
-<div class="controls"><input id="search" placeholder="Search app, API, authentication, blocker..."><select id="category"><option value="">All categories</option></select><select id="status"><option value="">All research statuses</option><option>completed</option><option>failed</option><option>not_researched</option></select><select id="build"><option value="">All buildability</option><option>Easy</option><option>Difficult</option><option>Blocked</option><option>Unknown</option></select></div>
+<div class="controls"><input id="search" placeholder="Search app, API, authentication, blocker..."><select id="category"><option value="">All categories</option></select><select id="status"><option value="">All research statuses</option><option>completed</option><option>failed</option><option>not_researched</option></select><select id="build">
+<option value="">All buildability</option>
+<option>Easy</option>
+<option>Moderate</option>
+<option>Difficult</option>
+<option>Blocked</option>
+<option>Unknown</option>
+</select></div>
 <div class="tablewrap"><table><thead><tr><th>Application</th><th>Category</th><th>Research</th><th>Authentication</th><th>API surface</th><th>MCP</th><th>Buildability</th><th>Composio</th></tr></thead><tbody id="appRows"></tbody></table></div><p class="label" id="rowCount" style="margin-top:10px"></p><div id="details"></div></section>
 <section class="section" id="auth"><h2>Authentication landscape</h2><p class="hint">Detected authentication labels from fetched research records. Counts represent label mentions, not mutually exclusive apps.</p><div class="card" id="authBars"></div></section>
 <section class="section" id="access"><h2>Access models</h2><p class="hint">Self-serve, gated, paid and other access findings where the research pipeline found supporting evidence.</p><div class="card" id="accessBars"></div></section>
@@ -199,7 +214,7 @@ document.getElementById('accessBars').innerHTML=bars(S.access);
 document.getElementById('apiBars').innerHTML=bars(S.api);
 document.getElementById('mcpBars').innerHTML=bars(S.mcp);
 document.getElementById('buildBars').innerHTML=bars(S.buildability);
-document.getElementById('categoryBars').innerHTML=S.categories.map(c=>`<div style="margin:12px 0"><div style="display:flex;justify-content:space-between"><span>${esc(c.name)}</span><span class="label">${c.researched}/${c.total} researched</span></div><div class="progress"><span style="width:${c.total?c.researched/c.total*100:0}%"></span></div><div class="label">Easy ${c.easy} · Difficult ${c.difficult} · Blocked ${c.blocked} · Unknown ${c.unknown}</div></div>`).join('');
+document.getElementById('categoryBars').innerHTML=S.categories.map(c=>`<div style="margin:12px 0"><div style="display:flex;justify-content:space-between"><span>${esc(c.name)}</span><span class="label">${c.researched}/${c.total} researched</span></div><div class="progress"><span style="width:${c.total?c.researched/c.total*100:0}%"></span></div><div class="label">Easy ${c.easy} · Moderate ${c.moderate} · Difficult ${c.difficult} · Blocked ${c.blocked} · Unknown ${c.unknown}</div></div>`).join('');
 const verificationChecks = D.verification.checks || [];
 const verdicts = verificationChecks.reduce((a,x) => {
     a[x.verdict] = (a[x.verdict] || 0) + 1;
@@ -219,8 +234,7 @@ document.getElementById('verificationKpis').innerHTML =
     kpi(accuracy === null ? 'Not measured' : accuracy.toFixed(1)+'%','Strict exact-match accuracy');
 
 document.getElementById('verificationNote').textContent =
-    'Strict accuracy = verified checks / all manual checks. This is a manually selected sample of ' +
-    checks + ' field checks across 12 applications, not a representative accuracy estimate for all 100 applications. Partial and incorrect findings are not counted as exact matches.';
+'Strict accuracy = verified checks / all manual checks. This is a manually selected sample of ' +    checks + ' field checks across 12 applications, not a representative accuracy estimate for all 100 applications. Partial and incorrect findings are not counted as exact matches.';
 const appNames = Object.fromEntries(R.map(x => [x.id, x.name]));
 const examples = D.verification.checks || [];
 
